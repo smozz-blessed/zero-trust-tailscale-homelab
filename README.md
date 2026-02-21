@@ -1,4 +1,3 @@
-```markdown
 # Zero Trust Remote Access Homelab
 
 ## Secure Overlay Networking Architecture using Tailscale, WireGuard and Role-Based ACL Segmentation
@@ -241,4 +240,3 @@ Contributions are welcome in the form of:
 ---
 
 *If you want to understand secure remote access architecture, zero trust segmentation, and encrypted overlay networking in a practical hands‑on lab, this project demonstrates a complete working example.*
-```
