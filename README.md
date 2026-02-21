@@ -1,16 +1,33 @@
-Outline
-	•	Title & Subtitle
-	•	Introduction
-	•	Architecture Diagram
-	•	Installation (Users)
-	•	Installation (Developers / Lab Reproduction)
-	•	Security Model
-	•	Contributor Expectations
-	•	Known Issues
+# Zero Trust Remote Access Homelab
+
+## Secure Overlay Networking Architecture using Tailscale, WireGuard and Role-Based ACL Segmentation
+
+![Homelab](https://img.shields.io/badge/Homelab-Zero%20Trust-blue)
+![Networking](https://img.shields.io/badge/Networking-Tailscale-green)
+![Security](https://img.shields.io/badge/Security-WireGuard-orange)
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Android-lightgrey)
+
+## Overview
+This project demonstrates a practical implementation of secure remote access networking using an overlay Zero Trust model.
+
+The architecture leverages encrypted communication tunnels, subnet routing, centralized internet egress via exit node configuration, and role-based access control.
+
+The lab simulates a small enterprise remote workforce security infrastructure connecting macOS, Windows VM, and Android devices.
+
+## Outline
+
+- Title & Subtitle
+- Introduction
+- Architecture Diagram
+- Installation (Users)
+- Installation (Developers)
+- Security Model
+- Contributor Expectations
+- Known Issues
 
 ⸻
 
-Title and Subtitle
+##Title and Subtitle
 
 Zero Trust Remote Access Homelab with Tailscale (Subnet Router + Exit Node + ACL Segmentation)
 
@@ -18,7 +35,7 @@ Secure remote access architecture using Tailscale, WireGuard, subnet routing and
 
 ⸻
 
-Introduction
+##Introduction
 
 This homelab demonstrates how to build a secure remote access architecture using Tailscale as a WireGuard-based overlay network.
 
@@ -73,7 +90,7 @@ Android → Encrypted tunnel → macOS → LAN
 
 ⸻
 
-Installation Instructions for Users
+##Installation Instructions for Users
 
 This section describes how to reproduce the lab.
 
@@ -128,7 +145,7 @@ Step 3 – Android Device
 
 ⸻
 
-Installation Instructions for Developers (Lab Reproduction Details)
+##Installation Instructions for Developers (Lab Reproduction Details)
 
 ACL Configuration
 
@@ -161,7 +178,7 @@ No global *:* access except where strictly required.
 
 ⸻
 
-Security Model
+##Security Model
 
 This homelab implements:
 
@@ -189,7 +206,7 @@ Only authorized devices can advertise subnet or exit routes.
 
 ⸻
 
-Contributor Expectations
+##Contributor Expectations
 
 This repository is a documentation-focused homelab project.
 
