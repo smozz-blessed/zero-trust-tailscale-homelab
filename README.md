@@ -27,7 +27,7 @@ The lab simulates a small enterprise remote workforce security infrastructure co
 
 ⸻
 
-##Title and Subtitle
+## Title and Subtitle
 
 Zero Trust Remote Access Homelab with Tailscale (Subnet Router + Exit Node + ACL Segmentation)
 
@@ -35,7 +35,7 @@ Secure remote access architecture using Tailscale, WireGuard, subnet routing and
 
 ⸻
 
-##Introduction
+## Introduction
 
 This homelab demonstrates how to build a secure remote access architecture using Tailscale as a WireGuard-based overlay network.
 
@@ -61,9 +61,8 @@ This setup simulates a small enterprise remote workforce architecture where remo
 
 ⸻
 
-Diagram (Architecture Overview)
+## Diagram (Architecture Overview)
 
-You can replace this with an actual diagram later.
 
                 Internet
                     |
@@ -145,7 +144,7 @@ Step 3 – Android Device
 
 ⸻
 
-##Installation Instructions for Developers (Lab Reproduction Details)
+## Installation Instructions for Developers (Lab Reproduction Details)
 
 ACL Configuration
 
@@ -178,7 +177,7 @@ No global *:* access except where strictly required.
 
 ⸻
 
-##Security Model
+## Security Model
 
 This homelab implements:
 
@@ -206,7 +205,7 @@ Only authorized devices can advertise subnet or exit routes.
 
 ⸻
 
-##Contributor Expectations
+## Contributor Expectations
 
 This repository is a documentation-focused homelab project.
 
