@@ -6,7 +6,7 @@
 ![Networking](https://img.shields.io/badge/Networking-Tailscale-green)
 ![Security](https://img.shields.io/badge/Security-WireGuard-orange)
 ![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Android-lightgrey)
-
+![Version](https://img.shields.io/badge/version-1.0-blue)
 ---
 
 ## Overview
