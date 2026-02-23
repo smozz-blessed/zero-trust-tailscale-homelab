@@ -17,27 +17,30 @@ The lab simulates a small enterprise remote workforce security infrastructure co
 
 ---
 
-## Outline
+## 📑 Outline
 
-- [Title & Subtitle](#title--subtitle)
-- [Introduction](#introduction)
-- [Architecture Diagram](#architecture-diagram)
-- [Installation (Users)](#installation-instructions-for-users)
-- [Installation (Developers)](#installation-instructions-for-developers-lab-reproduction-details)
-- [Security Model](#security-model)
-- [Contributor Expectations](#contributor-expectations)
-- [Known Issues](#known-issues)
+- 🎯 [Title & Subtitle](#title--subtitle)
+- 🧠 [Introduction](#introduction)
+- 🌐 [Architecture Diagram](#architecture-diagram)
+- 📸 [Screenshots & Validation](#screenshots--validation)
+- 🔎 [Security Validation & Testing](#security-validation--testing)
+- 📊 [Technical Impact Summary](#technical-impact-summary)
+- ⚙️ [Installation Instructions for Users](#installation-instructions-for-users)
+- 💻 [Installation Instructions for Developers](#installation-instructions-for-developers)
+- 🛡️ [Security Model](#security-model)
+- 🤝 [Contributor Expectations](#contributor-expectations)
+- ⚠️ [Known Issues](#known-issues)
 
 ---
 
-## Title & Subtitle
+## 🎯 Title & Subtitle
 
 **Zero Trust Remote Access Homelab with Tailscale (Subnet Router + Exit Node + ACL Segmentation)**  
 Secure remote access architecture using Tailscale, WireGuard, subnet routing and exit node configuration across macOS, Windows 11 VM and Android with enterprise-style ACL enforcement.
 
 ---
 
-## Introduction
+## 🧠 Introduction
 
 This homelab demonstrates how to build a secure remote access architecture using Tailscale as a WireGuard-based overlay network.
 
@@ -65,7 +68,7 @@ This setup simulates a small enterprise remote workforce architecture where remo
 
 ---
 
-## Architecture Diagram
+## 🌐 Architecture Diagram
 
 ```
                 Internet
@@ -142,7 +145,35 @@ These results confirm proper implementation of device tagging, subnet routing, e
 
 ---
 
-## Installation Instructions for Users
+## 📊 Technical Impact Summary
+
+This homelab project demonstrates practical implementation of modern secure networking principles using a Zero Trust architecture model.
+
+### Key Technical Achievements
+
+✅ Encrypted overlay networking using Tailscale (WireGuard-based tunneling)  
+✅ Subnet routing for controlled LAN access (192.168.0.0/24)  
+✅ Exit node centralized egress architecture  
+✅ Role-based access segmentation using device tags  
+✅ Least privilege service-level ACL enforcement  
+✅ Cross-platform client integration (macOS, Windows VM, Android)  
+✅ Unauthorized lateral movement prevention testing  
+✅ Connectivity validation through controlled security policy enforcement  
+
+### Engineering Skills Demonstrated
+
+- Network segmentation and access control design  
+- Secure remote workforce architecture  
+- Practical implementation of Zero Trust networking  
+- Troubleshooting and validation testing  
+- Multi-device infrastructure configuration  
+
+This project reflects hands-on understanding of enterprise-style secure access networking rather than purely theoretical configuration.
+
+
+---
+
+## ⚙️ Installation Instructions for Users
 
 This section describes how to reproduce the lab.
 
@@ -200,7 +231,7 @@ It should match the macOS public IP.
 
 ---
 
-## Installation Instructions for Developers (Lab Reproduction Details)
+## 💻 Installation Instructions for Developers (Lab Reproduction Details)
 
 ### ACL Configuration
 
@@ -236,7 +267,7 @@ No global `*:*` access except where strictly required.
 
 ---
 
-## Security Model
+## 🛡️ Security Model
 
 This homelab implements:
 
@@ -248,34 +279,7 @@ This homelab implements:
 
 ---
 
-## 📊 Technical Impact Summary
-
-This homelab project demonstrates practical implementation of modern secure networking principles using a Zero Trust architecture model.
-
-### Key Technical Achievements
-
-✅ Encrypted overlay networking using Tailscale (WireGuard-based tunneling)  
-✅ Subnet routing for controlled LAN access (192.168.0.0/24)  
-✅ Exit node centralized egress architecture  
-✅ Role-based access segmentation using device tags  
-✅ Least privilege service-level ACL enforcement  
-✅ Cross-platform client integration (macOS, Windows VM, Android)  
-✅ Unauthorized lateral movement prevention testing  
-✅ Connectivity validation through controlled security policy enforcement  
-
-### Engineering Skills Demonstrated
-
-- Network segmentation and access control design  
-- Secure remote workforce architecture  
-- Practical implementation of Zero Trust networking  
-- Troubleshooting and validation testing  
-- Multi-device infrastructure configuration  
-
-This project reflects hands-on understanding of enterprise-style secure access networking rather than purely theoretical configuration.
-
----
-
-## Contributor Expectations
+## 🤝 Contributor Expectations
 
 This repository is a documentation‑focused homelab project.
 
@@ -302,7 +306,7 @@ Contributions are welcome in the form of:
 
 ---
 
-## Known Issues
+## ⚠️ Known Issues
 
 - Android UI may not always display exit node correctly.
 - Bridged VM networking can create false‑positive LAN access results.
