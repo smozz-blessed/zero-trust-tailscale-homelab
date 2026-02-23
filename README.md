@@ -93,6 +93,55 @@ Android → Encrypted tunnel → macOS → LAN
 
 ---
 
+## 📸 Screenshots & Validation
+
+### 🔹 Admin Console – Devices Overview
+
+The tailnet devices are segmented using tags to enforce a Zero Trust access model.
+
+![Admin Console Devices](Images/01-admin-console-devices.png)
+
+---
+
+### 🔹 Hardened Zero Trust ACL
+
+Explicit service-level permissions are defined using device tags and least privilege principles.
+
+![Zero Trust ACL](Images/02-acl-zero-trust.png)
+
+---
+
+### 🔹 Subnet Router & Exit Node Configuration
+
+Subnet routing (192.168.0.0/24) and exit node (0.0.0.0/0) are approved and enforced.
+
+![Subnet Router & Exit Node](Images/03-subnet_router-&-exit_node.png)
+
+---
+
+### 🔹 Connectivity Test
+
+Successful LAN connectivity test from the Windows client through the subnet router.
+
+![Connectivity Test](Images/04-connectivity-test.png)
+
+---
+
+## 🔎 Security Validation & Testing
+
+The following validation demonstrates enforcement of the hardened Zero Trust ACL model:
+
+- ✔ Successful Tailscale authentication  
+- ✔ Approved subnet routing  
+- ✔ Explicit service-level access control  
+- ❌ Unauthorized lateral movement blocked  
+
+![Zero Trust Validation Results](Images/05-zero-trust-validation-results.png)
+
+These results confirm proper implementation of device tagging, subnet routing, exit node configuration, and least privilege access control.
+
+---
+
 ## Installation Instructions for Users
 
 This section describes how to reproduce the lab.
