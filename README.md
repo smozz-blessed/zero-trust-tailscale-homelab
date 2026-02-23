@@ -316,3 +316,13 @@ Contributions are welcome in the form of:
 ---
 
 *If you want to understand secure remote access architecture, zero trust segmentation, and encrypted overlay networking in a practical hands‑on lab, this project demonstrates a complete working example.*
+
+---
+
+## ⭐ Support This Project
+
+If you found this homelab useful, please consider giving it a star on GitHub.
+
+👉 Click the ⭐ button at the top right of the repository.
+
+Thank you!
