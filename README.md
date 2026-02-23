@@ -180,10 +180,6 @@ Windows client allowed access to specific ports on the LAN:
 
 | Port | Service  |
 |------|----------|
-| 443  | Router UI|
-| 22   | SSH      |
-| 3389 | RDP      |
-| 445  | SMB      |
 | 53   | DNS      |
 | 123  | NTP      |
 
@@ -198,7 +194,7 @@ This homelab implements:
 - **Encrypted Overlay Network** – All device‑to‑device communication is end‑to‑end encrypted using WireGuard.
 - **Zero Trust Approach** – No implicit trust between devices; access is defined explicitly via ACL rules and tags.
 - **Centralized Internet Egress** – Remote clients route internet traffic through a trusted exit node (macOS device).
-- **Micro‑Segmentation** – Windows VM cannot access the entire LAN unrestricted; only specific services are permitted.
+- **Micro-Segmentation** – Windows VM and remote clients are restricted to authorized services only. Administrative and management interface access is limited to trusted admin-tagged devices following Zero Trust policy enforcement.
 - **Controlled Route Advertisement** – Only authorized devices can advertise subnet or exit routes.
 
 ---
